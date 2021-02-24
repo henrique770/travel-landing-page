@@ -1,5 +1,12 @@
 import React from 'react';
 
-const Home = () => <h1>Home</h1>;
+import * as S from './styled';
+
+const Home = () => (
+  <>
+    <S.Title>Home</S.Title>
+    <S.Title>Test</S.Title>
+  </>
+);
 
 export default Home;

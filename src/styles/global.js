@@ -1,6 +1,6 @@
 import { css } from '@emotion/react';
 
-export const global = css`
+const globalStyles = css`
   * {
     margin: 0;
     padding: 0;
@@ -11,7 +11,10 @@ export const global = css`
   html,
   body,
   #root {
+    font-size: 62.5%;
     min-height: 100%;
+    font: 16px 'Mulish', sans-serif;
+    line-height: 1.6;
   }
 
   button {
@@ -19,3 +22,5 @@ export const global = css`
     cursor: pointer;
   }
 `;
+
+export default globalStyles;
