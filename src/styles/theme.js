@@ -24,6 +24,13 @@ const theme = {
     l: '24px',
     xl: '32px',
   },
+
+  breaks: {
+    huge: '1440px',
+    large: '1170px',
+    medium: '768px',
+    small: '450px',
+  },
 };
 
 export default theme;
