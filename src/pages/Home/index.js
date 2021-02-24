@@ -1,11 +1,22 @@
 import React from 'react';
+import {
+  Header,
+  Footer,
+  Featured,
+  Testimonials,
+  Trending,
+} from '../../components';
 
 import * as S from './styled';
 
 const Home = () => (
   <>
-    <S.Title>Home</S.Title>
+    <Header />
     <S.Title>Test</S.Title>
+    <Featured />
+    <Testimonials />
+    <Trending />
+    <Footer />
   </>
 );
 
