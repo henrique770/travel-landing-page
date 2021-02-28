@@ -15,11 +15,23 @@ export const Container = styled.div`
 `;
 
 export const Logo = styled.img`
-  width: 40px;
+  ${({ theme }) => css`
+    width: 40px;
+    height: 40px;
+    margin-right: ${theme.spacing.m};
+  `}
 `;
 
-export const ListWrapper = styled.div`
+export const Title = styled.h1`
+  ${({ theme }) => css`
+    font-family: ${theme.font.playfair};
+    font-size: ${theme.typography.xl2};
+  `}
+`;
+
+export const Wrapper = styled.div`
   display: flex;
+  align-items: center;
 `;
 
 export const List = styled.ul`

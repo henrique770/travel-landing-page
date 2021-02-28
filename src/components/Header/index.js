@@ -5,16 +5,19 @@ import * as S from './styled';
 
 const Header = () => (
   <S.Container>
-    <S.Logo src={logo} alt="logo" />
+    <S.Wrapper>
+      <S.Logo src={logo} alt="logo" />
+      <S.Title>Travel</S.Title>
+    </S.Wrapper>
 
-    <S.ListWrapper>
+    <S.Wrapper>
       <S.List>
         <S.Item active>Home</S.Item>
         <S.Item>Destinations</S.Item>
         <S.Item>About</S.Item>
         <S.Item>Partner</S.Item>
       </S.List>
-    </S.ListWrapper>
+    </S.Wrapper>
   </S.Container>
 );
 

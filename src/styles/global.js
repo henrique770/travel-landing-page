@@ -1,4 +1,5 @@
 import { css } from '@emotion/react';
+import theme from './theme';
 
 const globalStyles = css`
   * {
@@ -13,7 +14,7 @@ const globalStyles = css`
   #root {
     font-size: 62.5%;
     min-height: 100%;
-    font: 16px 'Mulish', sans-serif;
+    font: 16px ${theme.font.mulish};
     line-height: 1.6;
   }
 

@@ -32,6 +32,12 @@ const theme = {
     small: '450px',
   },
 
+  font: {
+    inter: "'Inter', sans-serif",
+    mulish: "'Mulish', sans-serif",
+    playfair: "'Playfair Display', serif",
+  },
+
   typography: {
     xs: '12px',
     sm: '16px',
