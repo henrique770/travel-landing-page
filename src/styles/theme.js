@@ -31,6 +31,18 @@ const theme = {
     medium: '768px',
     small: '450px',
   },
+
+  typography: {
+    xs: '12px',
+    sm: '16px',
+    md: '16px',
+    md1: '18px',
+    lg: '20px',
+    xl: '22px',
+    xl2: '24px',
+    xl3: '36px',
+    xl4: '64px',
+  },
 };
 
 export default theme;
